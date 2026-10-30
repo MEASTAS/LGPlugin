@@ -1,0 +1,20 @@
+phase1:
+  world: '' # blank = first available world
+  teleport-radius: 8
+  teleport-batch-ticks: 20
+  entrance-delay-ticks: 10
+  darkness-seconds: 3
+  dramatic-entrance: true
+  title: '&4LAST GAMBLE'
+  subtitle: '&7RE: LIFE'
+  finale-title: '&cTHE SHOW HAS BEGUN'
+  finale-subtitle: '&4YOUR FATE IS SEALED'
+  inventory:
+    clear: true
+    leather-armor: true
+    starter-items: true
+reset:
+  restore-food: true
+  restore-health: true
+  clear-inventory: true
+  teleport-to-spawn: false

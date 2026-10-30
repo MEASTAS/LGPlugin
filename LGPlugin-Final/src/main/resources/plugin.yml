@@ -1,0 +1,22 @@
+name: LGPlugin
+version: '${version}'
+main: com.lgnetwork.plugin.LGPlugin
+api-version: '1.21'
+author: LG Network
+description: Last Gamble RE:LIFE phase event framework
+commands:
+  phase1:
+    description: Start, reset, restart, stop or inspect Phase 1
+    usage: /phase1 <start|reset|restart|stop|status>
+    permission: lg.admin
+  lg:
+    description: LG Network event controls
+    usage: /lg <phase1|reset|restart|stop|status>
+    permission: lg.admin
+permissions:
+  lg.admin:
+    description: Manage LGPlugin events
+    default: op
+  lg.bypass:
+    description: Bypass event restrictions
+    default: op
